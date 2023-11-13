@@ -1,0 +1,70 @@
+.landingpage {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/friends.jpg);
+    color: white;
+
+    .quote {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        h2 {
+            font-size: 80px;
+            color: skyblue;
+            text-shadow: 0 0 5px;
+            transition: 1s all ease;
+            margin-bottom: 40px;
+
+            &:hover{
+                text-shadow: 10px 20px 30px skyblue;
+                cursor: default;
+            }
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+
+        .links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 40px;
+
+            button {
+                all: unset;
+                cursor: pointer;
+                border: 1px solid white;
+                padding: 8px;
+                border-radius: 8px;
+                position: relative;
+                overflow: hidden;
+
+                a {
+                    all: unset
+                }
+
+                &::after{
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 0;
+                    height: 100%;
+                    z-index: -1;
+                    background-color: skyblue;
+                    transition: .3s all ease;
+                }
+
+                &:hover::after{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
