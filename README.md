@@ -1,7 +1,9 @@
 # Blog app
 This is a simple blog app made with React
 
-## [see website live here](https://blog-app-five-jade.vercel.app/)
+### [see website live here](https://blog-app-five-jade.vercel.app/)
+
+### [Check API here](https://github.com/Fadilix/blog-api)
 
 ## Technologies used
 
