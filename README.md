@@ -1,27 +1,25 @@
-# React + TypeScript + Vite
+# Blog app
+This is a simple blog app made with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## [see website live here](https://blog-app-five-jade.vercel.app/)
 
-Currently, two official plugins are available:
+## Technologies used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React with TypeScript
+- SCSS for styling
+- Express for the backend
+- Postgresql for the database
 
-## Expanding the ESLint configuration
+## Home Page
+![image](https://github.com/Fadilix/blog-app/assets/121851593/eec6a0b5-c080-44f8-a689-28319a7ffaee)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+## Posts
+![image](https://github.com/Fadilix/blog-app/assets/121851593/0aa51cf8-fd40-4e7d-a4f4-e988ecfc0787)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+# Single post
+![image](https://github.com/Fadilix/blog-app/assets/121851593/fbdef41a-5490-45aa-b9d1-d7b06e9ea783)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Thoughts
+
+Could improve the **style**, add **user login and registration**, make the app more **complete**
